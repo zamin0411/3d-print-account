@@ -11,8 +11,6 @@ import (
 	"net/http"
 	"time"
 
-	"context"
-
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofrs/uuid"
 	"github.com/golang-jwt/jwt/v4"
