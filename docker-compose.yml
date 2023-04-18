@@ -1,0 +1,10 @@
+version: '4.16.3'
+
+services:
+  api:
+    build: .
+    ports:
+     - 3000:3000
+    volumes:
+      - .:/usr/src/app
+    command: go run main.go
